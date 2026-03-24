@@ -10,10 +10,23 @@
 		<p>Here, a JavaScript changes the value of the src (source) attribute of an image.</p>
 		
 		<img id="lampadina" src="immagini/pic_bulboff.gif" width="100" height="180">
+		
+		<p id="prova"> mostrami il tuo nome </p> 
 
 		<p>
 			<button type="button" onclick="light(1)">Light On</button>
 			<button type="button" onclick="light(0)">Light Off</button>
+			<button onclick="alert('Hello!')">Click Me</button>
+			
+			<button 
+				onclick="showName('Mario')">
+				Click me to display your name.
+			</button>
+			
+			<button 
+				onclick="changeTheme()">
+				cambia tema
+			</button>
 		</p>
 	</body>
 </html>
